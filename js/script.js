@@ -13,7 +13,6 @@ let id = 'ulList';
 let list = document.getElementById(id);
 let arrList = [];
 let count = prompt("Input count of list items: ");
-let time = 10000;
 
 let timer = () => {
     let elem = document.getElementById('timer');
@@ -37,4 +36,4 @@ for (let i = 0; i < count; i++) {
 }
 
 arrList.map(addLitst);
-setTimeout(timer, 0);
+timer();
